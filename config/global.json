@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "Soundbytes": {
+            "applicationId": "BQmvWMb7YW13061P4ve9qsgwcIE1jM5oVg1p6P7P", 
+            "masterKey": "8CVcFMiHIn63rNWZCOEhMucrrmn1BvqU1uyWoCeY"
+        }, 
+        "_default": {
+            "link": "Soundbytes"
+        }
+    }
+}
