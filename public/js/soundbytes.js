@@ -12,6 +12,8 @@ $(document).ready(function() {
 		}
 		soundbyte.save();
 	});
+	$("#main-content").css('margin-top', $(".header-carousel").height() + 'px');
+	$('.toggle-menu').jPushMenu();
 });	
 
 $(window).resize(function() {
