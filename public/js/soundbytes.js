@@ -14,6 +14,15 @@ $(document).ready(function() {
 	});
 	$("#main-content").css('margin-top', $(".header-carousel").height() + 'px');
 	$('.toggle-menu').jPushMenu();
+
+	$("#login-button").click(function() {
+		var username = $("#username-field");
+		var password = $("#password-field");
+		var user = new Parse.User();
+		user.set("username", username);
+		user.set("password", password);
+		user.signUp();
+	});
 });	
 
 $(window).resize(function() {
