@@ -83,5 +83,26 @@ body {
 .nav{
 	z-index: 1000;
 	position: absolute;
-	top: 0px;
+	top: 5px;
+	left: 5px;
 }
+
+.nav #left-toggle{
+	background-color: transparent;
+	border: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.nav #left-toggle{
+	color: white;
+	font-size: 26px;
+}
+
+.nav #left-toggle:hover{
+	cursor: pointer;
+	color: #ccc;
+}
+
