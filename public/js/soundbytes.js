@@ -12,7 +12,7 @@ $(document).ready(function() {
 		}
 		soundbyte.save();
 	});
-	$("#main-content").css('margin-top', $(".header-carousel").height() + 'px');
+	//$("#main-content").css('margin-top', $(".header-carousel").height() + 'px');
 	$('.toggle-menu').jPushMenu();
 
 	$("#login-button").click(function() {
@@ -26,5 +26,5 @@ $(document).ready(function() {
 });	
 
 $(window).resize(function() {
-	$("#main-content").css('margin-top', $(".header-carousel").height() + 'px');
+	//$("#main-content").css('margin-top', $(".header-carousel").height() + 'px');
 });
